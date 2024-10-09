@@ -1,0 +1,9 @@
+runtime: nodejs22
+service: anime
+
+handlers:
+  - url: /.*
+    script: auto
+
+# Optional: Configure default expiration for static content
+default_expiration: "30d"
